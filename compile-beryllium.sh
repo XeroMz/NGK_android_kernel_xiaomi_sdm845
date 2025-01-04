@@ -10,7 +10,7 @@ DEFCONFIG=nogravity_defconfig
 #DEFCONFIG=beryllium_defconfig
 COMPILER=clang
 LINKER=""
-COMPILERDIR="/media/pierre/Expension/Android/PocophoneF1/Kernels/Proton-Clang"
+COMPILERDIR="/workspace/Plerr/clang"
 
 # Outputs
 mkdir out/outputs
@@ -21,8 +21,8 @@ mkdir out/outputs/${PHONE}/10.3.7-SE
 mkdir out/outputs/${PHONE}/10.3.7-NSE
 
 # Export shits
-export KBUILD_BUILD_USER=Pierre2324
-export KBUILD_BUILD_HOST=G7-7588
+export KBUILD_BUILD_USER=nobody
+export KBUILD_BUILD_HOST=GitPod
 
 # Speed up build process
 MAKE="./makeparallel"
